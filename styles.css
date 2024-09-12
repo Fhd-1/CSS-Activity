@@ -1,0 +1,126 @@
+/*ChatGPT-4o,12/9/2024,before i start styling using css what changes do i need to make to this html code*/
+/*ChatGPT-4o,12/9/2024,I need to use css so apply changes to my code using div*/
+body {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: lightgray;
+}
+
+.header {
+    display: block;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    color: #1abc9c;
+    text-align: center;
+}
+
+nav {
+    padding: 1px;
+    background-color: #1abc9c;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    font-weight: bold;
+    padding: 5px;
+    margin: 0 10px;
+}
+
+nav li:last-child {
+    margin-left: auto;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    background-color: rgb(19, 142, 129);
+}
+
+.create-event,
+.input-availability,
+.view-results,
+.sign-up {
+    display: block;
+    background-color: #1abc9c;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+form {
+    display: inline-block;
+    margin: 20px;
+    max-width: 600px;
+    padding: 20px;
+    text-align: left;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: lightgray;
+}
+
+label {
+    display: inline-block;
+    margin: auto;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"],
+button {
+    float: right;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #b0b0b0;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 1px 6px;
+}
+
+.footer {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+}
